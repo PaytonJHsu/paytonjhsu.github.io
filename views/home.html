@@ -7,9 +7,10 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Payton Website</title>
     	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link rel="stylesheet" href="../resources/css/styles.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary " >
+		<nav class="navbar navbar-expand-lg" id = "headnav" >
   			<div class="container-fluid">
   			  	<a class="navbar-brand" href="#">
 					Payton Website
@@ -35,20 +36,24 @@
   			</div>
 		</nav>
 
-		<div class="container">
-			<h1> Home </h1>
-  			<div class="row align-items-start">
-    			<div class="col">
-      				<img src="../resources/img/profile_pic.jpg" alt="Profile Pic" class = "rounded-circle"width="500">
+		
+		<div class="container text-center my-3">
+			<h1> Home Page</h1>
+		</div>
+		<div class="container my-3">
+  			<div class="row align-items-start my-3" >
+    			<div class="col text-center">
+      				<img class = "rounded-circle" width="600" height="600" src="../resources/img/profile_pic.jpg" alt="Profile Pic" id="pfp">
     			</div>
 
     			<div class="col align-self-center">
 					<h2>About Me:</h2>
       				<p>
-						I am currently a second-year student the The University of Colorado Boulder. <br>
-						I am pursuing a computer science major.<br>
-						I was born and raised in Washington State. <br>
-						I am a member of the CU Boulder Robotics Team. <br>
+						I am a student as The University of Colorado Boulder pursuing a Computer Science B.S. Originally from Washington state,
+						I am mainly interested in software developement but have recently joined the robotics club and have been exploring that field as well.
+						I like to spend my free time either drawing, tending to my plants, or playing video games.
+						Feel free to check out my resume or email me at <a class="link" href="mailto:paytonhsu@outlook.com">paytonhsu@outlook.com</a>! 
+						 
 						<a class="link" href="resume.html"> 
 							Resume
 						</a>
@@ -59,7 +64,7 @@
 
 
 		<!--Footer taken from https://getbootstrap.com/docs/5.3/examples/footers/-->
-		<footer class = "d-flex flex-wrap justify-content-center py-3 bg-body-tertiary">
+		<footer class = "d-flex flex-wrap justify-content-center py-3">
 			<a href="https://github.com/PaytonJHsu">
 				<i class="fa-brands fa-github fa-2xl"></i>
 			</a>

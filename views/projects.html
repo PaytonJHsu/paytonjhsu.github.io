@@ -5,9 +5,10 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Payton Website</title>
     	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    </head>
+    	<link rel="stylesheet" href="../resources/css/styles.css">
+	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg bg-body-tertiary " >
+		<nav class="navbar navbar-expand-lg " id = "headnav">
   			<div class="container-fluid">
   			  	<a class="navbar-brand" href="#">
 					Payton Website
@@ -32,9 +33,11 @@
                 <img src="../resources/img/icon.jpg" alt="Logo" width="40" height="40" class="d-inline-block rounded-circle">
   			</div>
 		</nav>
-        
+		<div class="container text-center my-3">
+				<h1> Projects </h1>
+		</div>
+		<div class="container my-3">
         <div class="accordion" id="accordionProject">
-            <h1> Projects </h1>
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -44,8 +47,9 @@
                 <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionProject">
                     <div class="accordion-body">
                         <strong>
-                            I made a discord bot a while ago
+                            I made a discord bot a while ago.
                         </strong> 
+							I think I used the Javas library to make it.
                             I have no clue where the source code is anymore.
                     </div>
                 </div>
@@ -59,16 +63,22 @@
                 <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionProject">
                     <div class="accordion-body">
                         <strong>
-                            I made a platformer in Unity for a Game Jam.<br>
+                            I made a platformer in Unity for Code Day Seattle.<br>
                         </strong> 
-                        <a href="https://github.com/PaytonJHsu/GuyWithSword">
+							I worked in a team of 3 and learned how to use Unity. It was called GuyWithSword and was a lot of fun to make. The art is mostly hand drawn by Malia Garg.
+                        <br>
+						<a href="https://github.com/PaytonJHsu/GuyWithSword">
 				            Here is the source code.</i>
-			            </a>
+			            </a><br>
+						<a href="https://showcase.codeday.org/project/clf5kzo8e754049fgif4d6y8fvj">
+							Here is the submission.</i>
+						</a><br>
                     </div>
                 </div>
             </div>
         </div>
-        <footer class = "d-flex flex-wrap justify-content-center py-3 bg-body-tertiary">
+		</div>
+        <footer class = "d-flex flex-wrap justify-content-center py-3">
 			<a href="https://github.com/PaytonJHsu">
 				<i class="fa-brands fa-github fa-2xl"></i>
 			</a>
